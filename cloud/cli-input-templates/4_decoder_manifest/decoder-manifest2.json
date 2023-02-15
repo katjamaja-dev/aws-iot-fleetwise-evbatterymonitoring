@@ -83,7 +83,52 @@
         "offset": -40.0,
         "startBit": 0
       },
-      "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Cell001.CellTemperature",
+      "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module01.Cell001.CellTemperature",
+      "interfaceId": "1",
+      "type": "CAN_SIGNAL"
+    },
+
+    {
+      "canSignal": {
+        "factor": 0.5,
+        "isBigEndian": false,
+        "isSigned": false,
+        "length": 24,
+        "messageId": 317,
+        "offset": -40.0,
+        "startBit": 0
+      },
+      "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module02.Cell001.CellTemperature",
+      "interfaceId": "1",
+      "type": "CAN_SIGNAL"
+    },
+
+    {
+      "canSignal": {
+        "factor": 0.5,
+        "isBigEndian": false,
+        "isSigned": false,
+        "length": 24,
+        "messageId": 333,
+        "offset": -40.0,
+        "startBit": 0
+      },
+      "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module03.Cell001.CellTemperature",
+      "interfaceId": "1",
+      "type": "CAN_SIGNAL"
+    },
+
+    {
+      "canSignal": {
+        "factor": 0.5,
+        "isBigEndian": false,
+        "isSigned": false,
+        "length": 24,
+        "messageId": 349,
+        "offset": -40.0,
+        "startBit": 0
+      },
+      "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module04.Cell001.CellTemperature",
       "interfaceId": "1",
       "type": "CAN_SIGNAL"
     },
