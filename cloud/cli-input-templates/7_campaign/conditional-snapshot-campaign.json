@@ -6,7 +6,7 @@
   "collectionScheme": {
     "conditionBasedCollectionScheme": {
       "conditionLanguageVersion": 1,
-      "expression": "$variable.`EVBatterySample.BMS.BatteryPack01.ShuntPlusCurrent_a` > 450.0",
+      "expression": "$variable.`EVBatterySample.BMS.BatteryPack01.Module01.Cell001.CellTemperature` > 40.0",
       "minimumTriggerIntervalMs": 5000,
       "triggerMode": "ALWAYS"
     }
@@ -17,28 +17,22 @@
   "signalsToCollect": [
     {
       "maxSampleCount": 100,
-
       "name": "EVBatterySample.Drivetrain.ActualVehicleSpeed"
     },
-
     {
       "maxSampleCount": 100,
-
       "name": "EVBatterySample.BMS.BatteryPack01.BatteryPackVoltagePlus"
     },
     {
       "maxSampleCount": 100,
-
       "name": "EVBatterySample.BMS.BatteryPack01.BatteryPackVoltageMinus"
     },
     {
       "maxSampleCount": 100,
-
-      "name": "EVBatterySample.BMS.BatteryPack01.Cell001.CellTemperature"
+      "name": "EVBatterySample.BMS.BatteryPack01.Module01.Cell001.CellTemperature"
     },
     {
       "maxSampleCount": 100,
-
       "name": "OBD.EngineSpeed"
     },
     {
