@@ -1,6 +1,6 @@
 {
-  "name": "continious-monitoring-campaign",
-  "targetArn": "arn:aws:iotfleetwise:${AWS_REGION}:${AWS_ACCOUNT_ID}:fleet/blog-fleet",
+  "name": "continious-monitoring-production-campaign",
+  "targetArn": "arn:aws:iotfleetwise:${AWS_REGION}:${AWS_ACCOUNT_ID}:fleet/blog-production-fleet",
   "signalCatalogArn": "arn:aws:iotfleetwise:${AWS_REGION}:${AWS_ACCOUNT_ID}:signal-catalog/main-signal-catalog",
   "collectionScheme": {
     "timeBasedCollectionScheme": {
@@ -19,15 +19,14 @@
       "name": "EVBatterySample.BMS.BatteryPack01.BatteryPackVoltageMinus",
       "maxSampleCount": 1
     },
-
     {
       "name": "EVBatterySample.Drivetrain.ActualVehicleSpeed",
       "maxSampleCount": 1
     },
     {
-      "name": "EVBatterySample.BMS.BatteryPack01.Cell001.CellTemperature",
-      "maxSampleCount": 1
-    },
+      "name": "EVBatterySample.BMS.BatteryPack01.Module01.Cell001.CellTemperature",
+      "maxSampleCount": 3
+  },
     {
       "name": "EVBatterySample.BMS.BatteryPack01.ShuntPlusCurrent_a",
       "maxSampleCount": 1

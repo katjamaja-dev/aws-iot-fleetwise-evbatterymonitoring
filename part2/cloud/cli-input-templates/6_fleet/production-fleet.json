@@ -1,5 +1,5 @@
 {
-  "fleetId": "blog-fleet",
+  "fleetId": "blog-production-fleet",
   "signalCatalogArn": "arn:aws:iotfleetwise:${AWS_REGION}:${AWS_ACCOUNT_ID}:signal-catalog/main-signal-catalog",
-  "description": "Example fleet"
+  "description": "Example fleet of production vehicles"
 }

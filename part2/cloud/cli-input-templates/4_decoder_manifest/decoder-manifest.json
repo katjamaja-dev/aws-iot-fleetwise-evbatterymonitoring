@@ -1,7 +1,7 @@
 {
-  "name": "blog-decodermanifest-02",
-  "modelManifestArn": "arn:aws:iotfleetwise:${AWS_REGION}:${AWS_ACCOUNT_ID}:model-manifest/blog-modelmanifest-02",
-  "description": "Sample decoder manifest 2",
+  "name": "blog-decodermanifest",
+  "modelManifestArn": "arn:aws:iotfleetwise:${AWS_REGION}:${AWS_ACCOUNT_ID}:model-manifest/blog-modelmanifest",
+  "description": "Sample decoder manifest",
   "networkInterfaces": [
     {
       "canInterface": {
@@ -83,7 +83,82 @@
         "offset": -40.0,
         "startBit": 0
       },
-      "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Cell001.CellTemperature",
+      "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module01.Cell001.CellTemperature",
+      "interfaceId": "1",
+      "type": "CAN_SIGNAL"
+    },
+
+    {
+      "canSignal": {
+        "factor": 0.5,
+        "isBigEndian": false,
+        "isSigned": false,
+        "length": 24,
+        "messageId": 317,
+        "offset": -40.0,
+        "startBit": 0
+      },
+      "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module02.Cell001.CellTemperature",
+      "interfaceId": "1",
+      "type": "CAN_SIGNAL"
+    },
+
+    {
+      "canSignal": {
+        "factor": 0.5,
+        "isBigEndian": false,
+        "isSigned": false,
+        "length": 24,
+        "messageId": 333,
+        "offset": -40.0,
+        "startBit": 0
+      },
+      "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module03.Cell001.CellTemperature",
+      "interfaceId": "1",
+      "type": "CAN_SIGNAL"
+    },
+
+    {
+      "canSignal": {
+        "factor": 0.5,
+        "isBigEndian": false,
+        "isSigned": false,
+        "length": 24,
+        "messageId": 349,
+        "offset": -40.0,
+        "startBit": 0
+      },
+      "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module04.Cell001.CellTemperature",
+      "interfaceId": "1",
+      "type": "CAN_SIGNAL"
+    },
+
+    {
+      "canSignal": {
+        "factor": 0.01,
+        "isBigEndian": false,
+        "isSigned": false,
+        "length": 24,
+        "messageId": 500,
+        "offset": 0.0,
+        "startBit": 0
+      },
+      "fullyQualifiedName": "EVBatterySample.BMS.Relay01.Status",
+      "interfaceId": "1",
+      "type": "CAN_SIGNAL"
+    },
+
+    {
+      "canSignal": {
+        "factor": 0.01,
+        "isBigEndian": false,
+        "isSigned": false,
+        "length": 24,
+        "messageId": 501,
+        "offset": 0.0,
+        "startBit": 0
+      },
+      "fullyQualifiedName": "EVBatterySample.BMS.Relay01.StatusQualifier_enum",
       "interfaceId": "1",
       "type": "CAN_SIGNAL"
     },
@@ -104,16 +179,15 @@
       },
       "type": "OBD_SIGNAL"
     },
-
     {
       "canSignal": {
-        "factor": 0.02,
+        "factor": 0.01,
         "isBigEndian": false,
         "isSigned": false,
-        "length": 16,
+        "length": 24,
         "messageId": 600,
-        "offset": 5.0,
-        "startBit": 8
+        "offset": 0.0,
+        "startBit": 0
       },
       "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.ShuntPlusCurrent_a",
       "interfaceId": "1",

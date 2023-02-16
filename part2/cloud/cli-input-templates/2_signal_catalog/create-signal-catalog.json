@@ -5,132 +5,7 @@
     {
       "branch": {
         "description": "description",
-
         "fullyQualifiedName": "EVBatterySample"
-      }
-    },
-    {
-      "branch": {
-        "description": "Battery Management System",
-
-        "fullyQualifiedName": "EVBatterySample.BMS"
-      }
-    },
-    {
-      "branch": {
-        "description": "BP 1",
-
-        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01"
-      }
-    },
-    {
-      "branch": {
-        "description": "BP 2",
-
-        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack02"
-      }
-    },
-    {
-      "branch": {
-        "description": "BP 01 / Cell 001",
-
-        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Cell001"
-      }
-    },
-    {
-      "branch": {
-        "description": "BP 02 / Cell 001",
-
-        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack02.Cell001"
-      }
-    },
-    {
-      "branch": {
-        "description": "Relay 01",
-
-        "fullyQualifiedName": "EVBatterySample.BMS.Relay01"
-      }
-    },
-    {
-      "branch": {
-        "description": "Drivetrain",
-
-        "fullyQualifiedName": "EVBatterySample.Drivetrain"
-      }
-    },
-
-    {
-      "sensor": {
-        "dataType": "DOUBLE",
-        "fullyQualifiedName": "EVBatterySample.Drivetrain.ActualVehicleSpeed",
-        "max": 320.0,
-        "min": 0.0,
-
-        "unit": "kph"
-      }
-    },
-    {
-      "sensor": {
-        "dataType": "DOUBLE",
-        "fullyQualifiedName": "EVBatterySample.BMS.Relay01.StatusQualifier_enum",
-        "max": 500.0,
-        "min": -40.0,
-
-        "unit": ""
-      }
-    },
-    {
-      "sensor": {
-        "dataType": "DOUBLE",
-        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Cell001.CellTemperature",
-        "max": 500,
-        "min": -40.0,
-
-        "unit": "degC"
-      }
-    },
-
-    {
-      "sensor": {
-        "dataType": "DOUBLE",
-        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.BatteryPackVoltagePlus",
-        "max": 1000.0,
-        "min": -100.0,
-
-        "unit": "v"
-      }
-    },
-    {
-      "sensor": {
-        "dataType": "DOUBLE",
-        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.BatteryPackVoltageMinus",
-        "max": 1000.0,
-        "min": -100.0,
-
-        "unit": "v"
-      }
-    },
-
-    {
-      "sensor": {
-        "dataType": "DOUBLE",
-        "fullyQualifiedName": "EVBatterySample.BMS.Relay01.Status",
-        "max": 255.0,
-        "min": 0.0,
-
-        "unit": ""
-      }
-    },
-
-    {
-      "attribute": {
-        "dataType": "STRING",
-        "description": "VIN Number",
-        "fullyQualifiedName": "VehicleVIN",
-        "max": 100,
-        "min": 0,
-
-        "unit": "VIN"
       }
     },
     {
@@ -148,12 +23,56 @@
       }
     },
     {
+      "branch": {
+        "description": "Drivetrain",
+        "fullyQualifiedName": "EVBatterySample.Drivetrain"
+      }
+    },
+    {
+      "sensor": {
+        "dataType": "DOUBLE",
+        "fullyQualifiedName": "EVBatterySample.Drivetrain.ActualVehicleSpeed",
+        "max": 320.0,
+        "min": 0.0,
+        "unit": "kph"
+      }
+    },
+    {
+      "branch": {
+        "description": "Battery Management System",
+        "fullyQualifiedName": "EVBatterySample.BMS"
+      }
+    },
+    {
+      "branch": {
+        "description": "BP 1",
+        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01"
+      }
+    },
+    {
+      "sensor": {
+        "dataType": "DOUBLE",
+        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.BatteryPackVoltagePlus",
+        "max": 1000.0,
+        "min": -100.0,
+        "unit": "v"
+      }
+    },
+    {
+      "sensor": {
+        "dataType": "DOUBLE",
+        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.BatteryPackVoltageMinus",
+        "max": 1000.0,
+        "min": -100.0,
+        "unit": "v"
+      }
+    },
+    {
       "sensor": {
         "dataType": "DOUBLE",
         "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.ShuntPlusCurrent_a",
         "max": 1000.0,
         "min": 0.0,
-
         "unit": "a"
       }
     },
@@ -163,7 +82,6 @@
         "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.ShuntMinusCurrent_a",
         "max": 1000.0,
         "min": 0.0,
-
         "unit": "a"
       }
     },
@@ -173,7 +91,6 @@
         "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.ShuntPlusCurrentQualifier_enum",
         "max": 1000.0,
         "min": 0.0,
-
         "unit": "a"
       }
     },
@@ -183,8 +100,125 @@
         "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.ShuntMinusCurrentQualifier_enum",
         "max": 1000.0,
         "min": 0.0,
-
         "unit": "a"
+      }
+    },
+    {
+      "branch": {
+        "description": "Module 1",
+        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module01"
+      }
+    },
+    {
+      "branch": {
+        "description": "Module 2",
+        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module02"
+      }
+    },
+    {
+      "branch": {
+        "description": "Module 3",
+        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module03"
+      }
+    },
+    {
+      "branch": {
+        "description": "Module 4",
+        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module04"
+      }
+    },
+    {
+      "branch": {
+        "description": "BP 01 / Module 01 / Cell 001",
+        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module01.Cell001"
+      }
+    },
+    {
+      "branch": {
+        "description": "BP 01 / Module 02 / Cell 001",
+        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module02.Cell001"
+      }
+    },
+    {
+      "branch": {
+        "description": "BP 01 / Module 03 / Cell 001",
+        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module03.Cell001"
+      }
+    },
+    {
+      "branch": {
+        "description": "BP 01 / Module 04 / Cell 001",
+        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module04.Cell001"
+      }
+    },
+    {
+      "sensor": {
+        "dataType": "DOUBLE",
+        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module01.Cell001.CellTemperature",
+        "max": 500,
+        "min": -40.0,
+        "unit": "degC"
+      }
+    },
+    {
+      "sensor": {
+        "dataType": "DOUBLE",
+        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module02.Cell001.CellTemperature",
+        "max": 500,
+        "min": -40.0,
+        "unit": "degC"
+      }
+    },
+    {
+      "sensor": {
+        "dataType": "DOUBLE",
+        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module03.Cell001.CellTemperature",
+        "max": 500,
+        "min": -40.0,
+        "unit": "degC"
+      }
+    },
+    {
+      "sensor": {
+        "dataType": "DOUBLE",
+        "fullyQualifiedName": "EVBatterySample.BMS.BatteryPack01.Module04.Cell001.CellTemperature",
+        "max": 500,
+        "min": -40.0,
+        "unit": "degC"
+      }
+    },
+    {
+      "branch": {
+        "description": "Relay 01",
+        "fullyQualifiedName": "EVBatterySample.BMS.Relay01"
+      }
+    },
+    {
+      "sensor": {
+        "dataType": "DOUBLE",
+        "fullyQualifiedName": "EVBatterySample.BMS.Relay01.StatusQualifier_enum",
+        "max": 500.0,
+        "min": -40.0,
+        "unit": ""
+      }
+    },
+    {
+      "sensor": {
+        "dataType": "DOUBLE",
+        "fullyQualifiedName": "EVBatterySample.BMS.Relay01.Status",
+        "max": 255.0,
+        "min": 0.0,
+        "unit": ""
+      }
+    },
+    {
+      "attribute": {
+        "dataType": "STRING",
+        "description": "VIN Number",
+        "fullyQualifiedName": "VehicleVIN",
+        "max": 100,
+        "min": 0,
+        "unit": "VIN"
       }
     }
   ]
