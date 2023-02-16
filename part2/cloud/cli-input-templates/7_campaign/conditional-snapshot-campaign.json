@@ -1,5 +1,6 @@
 {
   "name": "conditional-snapshot-campaign",
+  "description": "campaign deployed to production fleet of vehicles to upload data at high frequency in the event of detecting unhealthy battery",
   "signalCatalogArn": "arn:aws:iotfleetwise:${AWS_REGION}:${AWS_ACCOUNT_ID}:signal-catalog/main-signal-catalog",
   "targetArn": "arn:aws:iotfleetwise:${AWS_REGION}:${AWS_ACCOUNT_ID}:fleet/blog-production-fleet",
 
