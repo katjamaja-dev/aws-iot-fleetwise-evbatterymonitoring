@@ -91,8 +91,9 @@ cmake-build-debug/
 # JIRA plugin
 atlassian-ide-plugin.xml
 
-# Cursive Clojure plugin
-.idea/replstate.xml
+# idea Folder
+.idea/*
+.idea/
 
 # Ruby plugin and RubyMine
 /.rakeTasks
